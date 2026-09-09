@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-20">
           <div className="lg:col-span-5 space-y-6">
             <div className="flex items-center gap-2 ml-8">
-              <img src={logo} alt="logo" className="w-20 h-20 p-1" />
+              <img src={logo} alt="logo" className="w-20 h-20 shrink-0w-20 h-20 shrink-0 cursor-pointer object-contain cursor-pointe pb-1" />
               <span className="font-bold text-2xl text-green-400">
                 Paw <span className="text-white">Care</span>
               </span>

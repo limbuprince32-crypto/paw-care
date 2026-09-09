@@ -12,12 +12,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="w-full px-6 md:px-10 py-5 flex items-center justify-between relative">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-0 -space-x-1">
         <img
           src={logo}
           alt="logo"
           placeholder="Pawcare logo"
-          className="w-20 h-20 flex justify-between shrink-0 cursor-pointer"
+          className="w-20 h-20 shrink-0 cursor-pointer object-contain cursor-pointe pb-1"
         />
         <span className="font-bold text-2xl text-emerald-500">
           Paw {""}
